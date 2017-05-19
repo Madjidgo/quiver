@@ -95,16 +95,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 /* Common Rules */
 
+.padding-vincent {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
 
+.padding-vincent2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* End  Common Rules */
 /* __________________________________ */
 /* Start Seafy */
 
-/* __________________ */
 /* 1st Section */
 .header-red {
   top: 0;
@@ -141,16 +146,13 @@ textarea {
 /* 2nd container */
 .first-white {
   height: 770px;
-  padding-top: 160px;
-  padding-bottom: 160px;
 }
 /* __________________ */
 /* 3rd container */
 .share-files { 
   background-color: #282B33;
   color: white; 
-  padding-top: 60px;
-  padding-bottom: 60px;
+
 }
 /* img */
 .share-files img {
@@ -158,26 +160,47 @@ textarea {
   max-width: 100%;
   height: auto;
 }
-/* section text */
-.share-text {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 /* section text (h3 & p) */
 .share-text h3 ,.share-text p {
   max-width: 70%;
 }
 /* __________________ */
-/* 4rd container */
+/* 4th container */
 
 
 
+/* __________________ */
+/*  5th container */
+.bonhomme {
+  height: 833px;
+  display: flex;
+  align-content: center;
+}
+.red {
+  background-color: #F2403B;
+}
 
+.h2-men {
+ font: 47px/54px "AvenirLTStd-Black",Helvetica,Arial,sans-serif;
+color: #fff; 
+padding-bottom: 20px;
+letter-spacing: -1px;
+text-transform: uppercase;
+text-align: center;
+}
 
+.red .btn {
+  margin-left: 40%;
+  border-radius: 50px;
+  background-color: #F7777F;
+  border-color: transparent;
+}
 
-
-
-
+.bonhomme img {
+  display: flex;
+  align-items: flex-end;
+}
 
 
 
