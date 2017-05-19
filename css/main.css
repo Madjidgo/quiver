@@ -94,6 +94,85 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*start madjidgo*/
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.contmad{
+    background-color: #F6F9F9;
+}
+.bcknav1{
+    background-color: #fff;
+}
+ .jumbotron h1{
+    padding-bottom: 20px;
+    font: normal 50px/90px 'AvenirLTStd-Light',Helvetica,Arial,sans-serif;
+    text-align: center; 
+}
+.degradia{
+    background: linear-gradient(to bottom,rgba(65,87,231,1) 0%,rgba(65,87,231,1) 60%,rgba(65,225,231,1) 100%);
+    color: #fff;
+    height: 100vh;   
+}
+.lead{
+    font: normal 22px/32px 'AvenirLTStd-medium',Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+.nav1,.nav2,.nav3,.nav4{
+    height: 300px;
+    border-radius: 4px 4px 0 0;
+    width: 250px;
+    padding: 20px 30px;
+}
+.nav1 {
+    background-color: #DAE1EB;
+}
+.nav2{
+   background-color: #6D98E6;
+}
+.nav3{
+    background-color: #3B4ECC;
+}
+.nav4{
+    background-color: #F79E02;
+}
+ h4{
+    text-align: center;
+    color: #3b4ecc;
+    
+    font: 14px/1px "AvenirLTStd-Heavy",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px;
+}
+.nav2 h4,.nav3 h4,.nav4 h4{
+    color: #fff;
+}
+.nav1 strong{
+    
+  margin-top: 15px;
+    font: 140px/140px "AvenirLTStd-Light",Helvetica,Arial,sans-serif;
+}
+ span{
+    font-size: 100px/100px "AvenirLTStd-Light",Helvetica,Arial,sans-serif;
+}
+span:hover{
+    color:rgba(59,78,204,1);
+}
+
+
+
+
+
+
+
+
+
+
+/*end madjidgo*/
 
 /* Common Rules */
 
@@ -221,6 +300,7 @@ textarea {
 /* End Seafy */
 /* __________________________________ */
 /* Start Slimane */
+
 
 
 
