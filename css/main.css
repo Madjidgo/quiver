@@ -374,7 +374,12 @@ textarea {
 
 /* End Slimane */
 /* __________________________________ */
+@media (min-width: 360px) {
+  .but1 ,.but2,.but3{
+  display: block;
 
+}
+}
 
 /*start madjidgo*/
 li{
@@ -430,19 +435,39 @@ a{
     letter-spacing: 2px;
     padding: 16px;
 }
-.nav2 h4,.nav3 h4,.nav4 h4{
+.nav2 h4,.nav3 h4,.nav4 h4,.nav2,.nav3,.nav4{
     color: #fff;
 }
-.nav1 strong{
+.nav1 strong,.nav2 strong,.nav3 strong{
     
-  margin-top: 15px;
-    font: 140px/140px "AvenirLTStd-Light",Helvetica,Arial,sans-serif;
+
+    font: 110px/2px "AvenirLTSt.d-Light",Helvetica,Arial,sans-serif;
 }
- span{
-    font-size: 100px/100px "AvenirLTStd-Light",Helvetica,Arial,sans-serif;
+
+ .contmad span:hover{
+    color:blue;
+    transition: color .26s ease-in-out;
+
 }
-span:hover{
-    color:rgba(59,78,204,1);
+.contmad span{
+  font-size: 49px;
+}
+.contmad .lispan {
+  opacity: .6;
+  cursor: pointer;
+}
+.nav1 button, .nav2 button,.nav3 button,.nav4 button{
+  border-radius: 50px;
+}
+
+@media(min-width: 900px){
+.but1,.but2,.but3 {
+  display: none;
+
+}
+article .nav1:hover .but1,article .nav2:hover .but2,article .nav3:hover .but3{
+  display: block;
+}
 }
 
 
