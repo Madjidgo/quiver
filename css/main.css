@@ -171,7 +171,81 @@ span:hover{
 
 
 
+<<<<<<< HEAD
 /*end madjidgo*/
+=======
+/* Common Rules */
+
+
+/* End  Common Rules */
+/* __________________________________ */
+/* Start Seafy */
+
+/* __________________ */
+/* 1st Section */
+.header-red {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap column;
+  align-items: center;
+  background-color: #F43B49;
+}
+
+.header-red h2, .header-red p {
+  margin: auto;
+  font: normal 22px/32px 'AvenirLTStd-medium',Helvetica,Arial,sans-serif;
+  color: #fff;
+}
+
+.articleimg {
+  width: 100%;
+  margin-top: -50vh;
+  max-width: 1700px;
+  padding: 0 80px;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* __________________ */
+/* 2nd container */
+.first-white {
+  height: 770px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+/* __________________ */
+/* 3rd container */
+.share-files { 
+  background-color: #282B33;
+  color: white; 
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* img */
+.share-files img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* section text */
+.share-text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* section text (h3 & p) */
+.share-text h3 ,.share-text p {
+  max-width: 70%;
+}
+/* __________________ */
+/* 4rd container */
 
 
 
@@ -187,6 +261,185 @@ span:hover{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Seafy */
+/* __________________________________ */
+/* Start Slimane */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 8e48166abd81ffa060553992d9fcba51282b001e
+
+
+
+
+
+
+
+
+
+
+/* End Slimane */
+/* __________________________________ */
+/* Start Madjiid */
+
+
+
+
+
+/* End Madjiid */
 
 /* ==========================================================================
    Helper classes
