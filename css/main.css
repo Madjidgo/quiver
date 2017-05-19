@@ -397,20 +397,48 @@ text-align: center;
 
 /* End Slimane */
 /* __________________________________ */
-@media (min-width: 360px) {
-  .but1 ,.but2,.but3{
-  display: block;
 
-}
-}
 
 /*start madjidgo*/
+
+
+/*rules commun*/
 li{
     list-style-type: none;
 }
 a{
     text-decoration: none;
 }
+
+/*end*/
+
+
+/* start media queries 360px*/
+@media (min-width: 360px) {
+  .but1 ,.but2,.but3{
+  display: block;
+
+}
+
+}
+/*end media 360px*/
+
+/*media 768px*/
+
+
+/*start media 900px*/
+@media(min-width: 900px){
+.but1,.but2,.but3 {
+  display: none;
+
+}
+article .nav1:hover .but1,article .nav2:hover .but2,article .nav3:hover .but3{
+  display: block;
+}
+}
+/*end media 900px*/
+
+
 .contmad{
     background-color: #F6F9F9;
 }
@@ -425,7 +453,9 @@ a{
 .degradia{
     background: linear-gradient(to bottom,rgba(65,87,231,1) 0%,rgba(65,87,231,1) 60%,rgba(65,225,231,1) 100%);
     color: #fff;
-    height: 100vh;   
+    height: 100vh;
+
+   
 }
 .lead{
     font: normal 22px/32px 'AvenirLTStd-medium',Helvetica,Arial,sans-serif;
@@ -483,15 +513,7 @@ a{
   border-radius: 50px;
 }
 
-@media(min-width: 900px){
-.but1,.but2,.but3 {
-  display: none;
 
-}
-article .nav1:hover .but1,article .nav2:hover .but2,article .nav3:hover .but3{
-  display: block;
-}
-}
 
 
 
