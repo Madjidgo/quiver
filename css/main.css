@@ -200,10 +200,28 @@ textarea {
 
 
 
+.col{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+    #navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        /*background-color:;*/
+    }
+   
 
 /* End Seafy */
 /* __________________________________ */
 /* Start Slimane */
+
 
 
 
