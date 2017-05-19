@@ -171,9 +171,13 @@ span:hover{
 
 
 
-<<<<<<< HEAD
+
 /*end madjidgo*/
-=======
+
+
+/*end madjidgo*/
+
+
 /* Common Rules */
 
 
@@ -279,6 +283,23 @@ span:hover{
 
 
 
+.col{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+    #navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        /*background-color:;*/
+    }
+   
 
 /* End Seafy */
 /* __________________________________ */
@@ -420,7 +441,8 @@ span:hover{
 
 
 
->>>>>>> 8e48166abd81ffa060553992d9fcba51282b001e
+
+
 
 
 
